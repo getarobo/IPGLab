@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839D98CE1ABA3AFA0064BD66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D98CD1ABA3AFA0064BD66 /* AppDelegate.m */; };
+		839D98D01ABA3AFA0064BD66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D98CF1ABA3AFA0064BD66 /* main.m */; };
+		839D98D31ABA3AFA0064BD66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D98D21ABA3AFA0064BD66 /* ViewController.m */; };
+		839D98D51ABA3AFA0064BD66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839D98D41ABA3AFA0064BD66 /* Images.xcassets */; };
+		839D98D81ABA3AFB0064BD66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839D98D61ABA3AFB0064BD66 /* Main.storyboard */; };
+		839D98E41ABA3AFB0064BD66 /* TwoViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D98E31ABA3AFB0064BD66 /* TwoViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		839D98DE1ABA3AFB0064BD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839D98BF1ABA3AFA0064BD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839D98C61ABA3AFA0064BD66;
+			remoteInfo = TwoView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		839D98C71ABA3AFA0064BD66 /* TwoView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839D98CB1ABA3AFA0064BD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839D98CC1ABA3AFA0064BD66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		839D98CD1ABA3AFA0064BD66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		839D98CF1ABA3AFA0064BD66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		839D98D11ABA3AFA0064BD66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		839D98D21ABA3AFA0064BD66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		839D98D41ABA3AFA0064BD66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		839D98D71ABA3AFB0064BD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839D98DD1ABA3AFB0064BD66 /* TwoViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839D98E21ABA3AFB0064BD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839D98E31ABA3AFB0064BD66 /* TwoViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839D98C41ABA3AFA0064BD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839D98DA1ABA3AFB0064BD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839D98BE1ABA3AFA0064BD66 = {
+			isa = PBXGroup;
+			children = (
+				839D98C91ABA3AFA0064BD66 /* TwoView */,
+				839D98E01ABA3AFB0064BD66 /* TwoViewTests */,
+				839D98C81ABA3AFA0064BD66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839D98C81ABA3AFA0064BD66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839D98C71ABA3AFA0064BD66 /* TwoView.app */,
+				839D98DD1ABA3AFB0064BD66 /* TwoViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839D98C91ABA3AFA0064BD66 /* TwoView */ = {
+			isa = PBXGroup;
+			children = (
+				839D98CC1ABA3AFA0064BD66 /* AppDelegate.h */,
+				839D98CD1ABA3AFA0064BD66 /* AppDelegate.m */,
+				839D98D11ABA3AFA0064BD66 /* ViewController.h */,
+				839D98D21ABA3AFA0064BD66 /* ViewController.m */,
+				839D98D41ABA3AFA0064BD66 /* Images.xcassets */,
+				839D98D61ABA3AFB0064BD66 /* Main.storyboard */,
+				839D98CA1ABA3AFA0064BD66 /* Supporting Files */,
+			);
+			path = TwoView;
+			sourceTree = "<group>";
+		};
+		839D98CA1ABA3AFA0064BD66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839D98CB1ABA3AFA0064BD66 /* Info.plist */,
+				839D98CF1ABA3AFA0064BD66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		839D98E01ABA3AFB0064BD66 /* TwoViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				839D98E31ABA3AFB0064BD66 /* TwoViewTests.m */,
+				839D98E11ABA3AFB0064BD66 /* Supporting Files */,
+			);
+			path = TwoViewTests;
+			sourceTree = "<group>";
+		};
+		839D98E11ABA3AFB0064BD66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839D98E21ABA3AFB0064BD66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839D98C61ABA3AFA0064BD66 /* TwoView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839D98E71ABA3AFB0064BD66 /* Build configuration list for PBXNativeTarget "TwoView" */;
+			buildPhases = (
+				839D98C31ABA3AFA0064BD66 /* Sources */,
+				839D98C41ABA3AFA0064BD66 /* Frameworks */,
+				839D98C51ABA3AFA0064BD66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoView;
+			productName = TwoView;
+			productReference = 839D98C71ABA3AFA0064BD66 /* TwoView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		839D98DC1ABA3AFB0064BD66 /* TwoViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839D98EA1ABA3AFB0064BD66 /* Build configuration list for PBXNativeTarget "TwoViewTests" */;
+			buildPhases = (
+				839D98D91ABA3AFB0064BD66 /* Sources */,
+				839D98DA1ABA3AFB0064BD66 /* Frameworks */,
+				839D98DB1ABA3AFB0064BD66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839D98DF1ABA3AFB0064BD66 /* PBXTargetDependency */,
+			);
+			name = TwoViewTests;
+			productName = TwoViewTests;
+			productReference = 839D98DD1ABA3AFB0064BD66 /* TwoViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839D98BF1ABA3AFA0064BD66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Algorithm;
+				TargetAttributes = {
+					839D98C61ABA3AFA0064BD66 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					839D98DC1ABA3AFB0064BD66 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 839D98C61ABA3AFA0064BD66;
+					};
+				};
+			};
+			buildConfigurationList = 839D98C21ABA3AFA0064BD66 /* Build configuration list for PBXProject "TwoView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839D98BE1ABA3AFA0064BD66;
+			productRefGroup = 839D98C81ABA3AFA0064BD66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839D98C61ABA3AFA0064BD66 /* TwoView */,
+				839D98DC1ABA3AFB0064BD66 /* TwoViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839D98C51ABA3AFA0064BD66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839D98D51ABA3AFA0064BD66 /* Images.xcassets in Resources */,
+				839D98D81ABA3AFB0064BD66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839D98DB1ABA3AFB0064BD66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839D98C31ABA3AFA0064BD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839D98D31ABA3AFA0064BD66 /* ViewController.m in Sources */,
+				839D98D01ABA3AFA0064BD66 /* main.m in Sources */,
+				839D98CE1ABA3AFA0064BD66 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839D98D91ABA3AFB0064BD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839D98E41ABA3AFB0064BD66 /* TwoViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		839D98DF1ABA3AFB0064BD66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839D98C61ABA3AFA0064BD66 /* TwoView */;
+			targetProxy = 839D98DE1ABA3AFB0064BD66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		839D98D61ABA3AFB0064BD66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839D98D71ABA3AFB0064BD66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839D98E51ABA3AFB0064BD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		839D98E61ABA3AFB0064BD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		839D98E81ABA3AFB0064BD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TwoView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		839D98E91ABA3AFB0064BD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TwoView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		839D98EB1ABA3AFB0064BD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TwoViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoView.app/Contents/MacOS/TwoView";
+			};
+			name = Debug;
+		};
+		839D98EC1ABA3AFB0064BD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TwoViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoView.app/Contents/MacOS/TwoView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839D98C21ABA3AFA0064BD66 /* Build configuration list for PBXProject "TwoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839D98E51ABA3AFB0064BD66 /* Debug */,
+				839D98E61ABA3AFB0064BD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839D98E71ABA3AFB0064BD66 /* Build configuration list for PBXNativeTarget "TwoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839D98E81ABA3AFB0064BD66 /* Debug */,
+				839D98E91ABA3AFB0064BD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		839D98EA1ABA3AFB0064BD66 /* Build configuration list for PBXNativeTarget "TwoViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839D98EB1ABA3AFB0064BD66 /* Debug */,
+				839D98EC1ABA3AFB0064BD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839D98BF1ABA3AFA0064BD66 /* Project object */;
+}
