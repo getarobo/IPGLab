@@ -7,17 +7,27 @@
 //
 
 #import "IPadWindowController.h"
-
+#import "VideoWindowController.h"
 @interface IPadWindowController ()
 
 @end
 
 @implementation IPadWindowController
+@synthesize videoWC;
+
+
+- (id)init{
+    if(![super initWithWindowNibName:@"IPadWindowController"])
+        return nil;
+    NSLog(@"_init: %@", NSStringFromClass([self class]));
+    
+    return self;
+}
 
 - (void)windowDidLoad {
     [super windowDidLoad];
-    
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+    NSLog(@"IPadWC loaded");
+  
 }
 
 @end

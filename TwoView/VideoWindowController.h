@@ -7,7 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+@class IPadWindowController;
+@interface VideoWindowController : NSWindowController{
+    IPadWindowController * padVC;
+}
 
-@interface VideoWindowController : NSWindowController
+@property (strong) IBOutlet NSView * playerView;
+
+
 
 @end

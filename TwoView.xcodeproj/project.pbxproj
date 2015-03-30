@@ -13,6 +13,16 @@
 		839D98D51ABA3AFA0064BD66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839D98D41ABA3AFA0064BD66 /* Images.xcassets */; };
 		839D98D81ABA3AFB0064BD66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839D98D61ABA3AFB0064BD66 /* Main.storyboard */; };
 		839D98E41ABA3AFB0064BD66 /* TwoViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D98E31ABA3AFB0064BD66 /* TwoViewTests.m */; };
+		839D99081ABA3FE30064BD66 /* VideoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D99071ABA3FE30064BD66 /* VideoWindowController.m */; };
+		839D990F1ABA41890064BD66 /* IPadWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D990D1ABA41890064BD66 /* IPadWindowController.m */; };
+		839D99101ABA41890064BD66 /* IPadWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839D990E1ABA41890064BD66 /* IPadWindowController.xib */; };
+		83E272811AC5E48A0017CA8B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E272801AC5E48A0017CA8B /* AVFoundation.framework */; };
+		83E272831AC5E4910017CA8B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E272821AC5E4910017CA8B /* Cocoa.framework */; };
+		83E272851AC5E4980017CA8B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E272841AC5E4980017CA8B /* CoreMedia.framework */; };
+		83E272921AC5EAF00017CA8B /* FourkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E272911AC5EAF00017CA8B /* FourkViewController.m */; };
+		83E272971AC5ED750017CA8B /* video1_4k.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83E272941AC5ED750017CA8B /* video1_4k.mp4 */; };
+		83E272981AC5ED750017CA8B /* video2_4k.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83E272951AC5ED750017CA8B /* video2_4k.mp4 */; };
+		83E272991AC5ED750017CA8B /* video3_4k.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83E272961AC5ED750017CA8B /* video3_4k.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,19 @@
 		839D98DD1ABA3AFB0064BD66 /* TwoViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839D98E21ABA3AFB0064BD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839D98E31ABA3AFB0064BD66 /* TwoViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewTests.m; sourceTree = "<group>"; };
+		839D99061ABA3FE30064BD66 /* VideoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWindowController.h; sourceTree = "<group>"; };
+		839D99071ABA3FE30064BD66 /* VideoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoWindowController.m; sourceTree = "<group>"; };
+		839D990C1ABA41890064BD66 /* IPadWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPadWindowController.h; path = ../IPadWindowController.h; sourceTree = "<group>"; };
+		839D990D1ABA41890064BD66 /* IPadWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPadWindowController.m; path = ../IPadWindowController.m; sourceTree = "<group>"; };
+		839D990E1ABA41890064BD66 /* IPadWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IPadWindowController.xib; path = ../IPadWindowController.xib; sourceTree = "<group>"; };
+		83E272801AC5E48A0017CA8B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		83E272821AC5E4910017CA8B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		83E272841AC5E4980017CA8B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		83E272901AC5EAF00017CA8B /* FourkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourkViewController.h; sourceTree = "<group>"; };
+		83E272911AC5EAF00017CA8B /* FourkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourkViewController.m; sourceTree = "<group>"; };
+		83E272941AC5ED750017CA8B /* video1_4k.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1_4k.mp4; sourceTree = "<group>"; };
+		83E272951AC5ED750017CA8B /* video2_4k.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2_4k.mp4; sourceTree = "<group>"; };
+		83E272961AC5ED750017CA8B /* video3_4k.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3_4k.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E272851AC5E4980017CA8B /* CoreMedia.framework in Frameworks */,
+				83E272831AC5E4910017CA8B /* Cocoa.framework in Frameworks */,
+				83E272811AC5E48A0017CA8B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +90,7 @@
 				839D98C91ABA3AFA0064BD66 /* TwoView */,
 				839D98E01ABA3AFB0064BD66 /* TwoViewTests */,
 				839D98C81ABA3AFA0064BD66 /* Products */,
+				83E272871AC5E6480017CA8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +106,19 @@
 		839D98C91ABA3AFA0064BD66 /* TwoView */ = {
 			isa = PBXGroup;
 			children = (
+				83E272931AC5ED750017CA8B /* Resources */,
+				83E2728F1AC5EADA0017CA8B /* Views */,
+				839D99061ABA3FE30064BD66 /* VideoWindowController.h */,
+				839D99071ABA3FE30064BD66 /* VideoWindowController.m */,
+				839D98D61ABA3AFB0064BD66 /* Main.storyboard */,
+				839D990C1ABA41890064BD66 /* IPadWindowController.h */,
+				839D990D1ABA41890064BD66 /* IPadWindowController.m */,
+				839D990E1ABA41890064BD66 /* IPadWindowController.xib */,
 				839D98CC1ABA3AFA0064BD66 /* AppDelegate.h */,
 				839D98CD1ABA3AFA0064BD66 /* AppDelegate.m */,
 				839D98D11ABA3AFA0064BD66 /* ViewController.h */,
 				839D98D21ABA3AFA0064BD66 /* ViewController.m */,
 				839D98D41ABA3AFA0064BD66 /* Images.xcassets */,
-				839D98D61ABA3AFB0064BD66 /* Main.storyboard */,
 				839D98CA1ABA3AFA0064BD66 /* Supporting Files */,
 			);
 			path = TwoView;
@@ -114,6 +148,35 @@
 				839D98E21ABA3AFB0064BD66 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83E272871AC5E6480017CA8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83E272841AC5E4980017CA8B /* CoreMedia.framework */,
+				83E272821AC5E4910017CA8B /* Cocoa.framework */,
+				83E272801AC5E48A0017CA8B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83E2728F1AC5EADA0017CA8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83E272901AC5EAF00017CA8B /* FourkViewController.h */,
+				83E272911AC5EAF00017CA8B /* FourkViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83E272931AC5ED750017CA8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83E272941AC5ED750017CA8B /* video1_4k.mp4 */,
+				83E272951AC5ED750017CA8B /* video2_4k.mp4 */,
+				83E272961AC5ED750017CA8B /* video3_4k.mp4 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +259,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839D99101ABA41890064BD66 /* IPadWindowController.xib in Resources */,
 				839D98D51ABA3AFA0064BD66 /* Images.xcassets in Resources */,
+				83E272971AC5ED750017CA8B /* video1_4k.mp4 in Resources */,
 				839D98D81ABA3AFB0064BD66 /* Main.storyboard in Resources */,
+				83E272991AC5ED750017CA8B /* video3_4k.mp4 in Resources */,
+				83E272981AC5ED750017CA8B /* video2_4k.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E272921AC5EAF00017CA8B /* FourkViewController.m in Sources */,
 				839D98D31ABA3AFA0064BD66 /* ViewController.m in Sources */,
+				839D99081ABA3FE30064BD66 /* VideoWindowController.m in Sources */,
 				839D98D01ABA3AFA0064BD66 /* main.m in Sources */,
 				839D98CE1ABA3AFA0064BD66 /* AppDelegate.m in Sources */,
+				839D990F1ABA41890064BD66 /* IPadWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +474,7 @@
 				839D98E91ABA3AFB0064BD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		839D98EA1ABA3AFB0064BD66 /* Build configuration list for PBXNativeTarget "TwoViewTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +483,7 @@
 				839D98EC1ABA3AFB0064BD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

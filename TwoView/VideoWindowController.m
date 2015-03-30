@@ -7,6 +7,7 @@
 //
 
 #import "VideoWindowController.h"
+#import "IPadWindowController.h"
 
 @interface VideoWindowController ()
 
@@ -17,7 +18,23 @@
 - (void)windowDidLoad {
     [super windowDidLoad];
     
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+    // 1. Open Ipad View
+    if (!padVC)
+    {
+        padVC = [[IPadWindowController alloc] init];
+    }
+    [padVC setVideoWC:self];
+    [padVC showWindow:self];
+    
+}
+
+- (IBAction)openSecondWindow:(id *)sender {
+    if (!padVC)
+    {
+        padVC = [[IPadWindowController alloc] init];
+    }
+    [padVC setVideoWC:self];
+    [padVC showWindow:self];
 }
 
 @end
