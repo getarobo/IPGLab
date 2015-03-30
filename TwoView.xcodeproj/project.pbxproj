@@ -13,6 +13,24 @@
 		839D98D51ABA3AFA0064BD66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839D98D41ABA3AFA0064BD66 /* Images.xcassets */; };
 		839D98D81ABA3AFB0064BD66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839D98D61ABA3AFB0064BD66 /* Main.storyboard */; };
 		839D98E41ABA3AFB0064BD66 /* TwoViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D98E31ABA3AFB0064BD66 /* TwoViewTests.m */; };
+		83C37EF41AC8D8880070596D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 83C37EF31AC8D8880070596D /* README.md */; };
+		83C37F191AC8DC940070596D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 83C37EF81AC8DC940070596D /* Credits.rtf */; };
+		83C37F1A1AC8DC940070596D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83C37EFA1AC8DC940070596D /* InfoPlist.strings */; };
+		83C37F1B1AC8DC940070596D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C37EFC1AC8DC940070596D /* MainMenu.xib */; };
+		83C37F1C1AC8DC940070596D /* Icon-1024.psd in Resources */ = {isa = PBXBuildFile; fileRef = 83C37EFE1AC8DC940070596D /* Icon-1024.psd */; };
+		83C37F1D1AC8DC940070596D /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83C37EFF1AC8DC940070596D /* Icon.icns */; };
+		83C37F1E1AC8DC940070596D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C37F001AC8DC940070596D /* main.m */; };
+		83C37F1F1AC8DC940070596D /* Peertalk Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83C37F011AC8DC940070596D /* Peertalk Example-Info.plist */; };
+		83C37F201AC8DC940070596D /* PTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C37F041AC8DC940070596D /* PTAppDelegate.m */; };
+		83C37F211AC8DC940070596D /* peertalk-icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 83C37F071AC8DC940070596D /* peertalk-icon.pdf */; };
+		83C37F221AC8DC940070596D /* peertalk-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C37F081AC8DC940070596D /* peertalk-icon.png */; };
+		83C37F231AC8DC940070596D /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 83C37F091AC8DC940070596D /* style.css */; };
+		83C37F241AC8DC940070596D /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C37F0D1AC8DC940070596D /* PTChannel.m */; };
+		83C37F251AC8DC940070596D /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C37F101AC8DC940070596D /* PTProtocol.m */; };
+		83C37F261AC8DC940070596D /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C37F121AC8DC940070596D /* PTUSBHub.m */; };
+		83C37F271AC8DC940070596D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83C37F141AC8DC940070596D /* InfoPlist.strings */; };
+		83C37F281AC8DC940070596D /* peertalkTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83C37F161AC8DC940070596D /* peertalkTests-Info.plist */; };
+		83C37F291AC8DC940070596D /* PTProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C37F181AC8DC940070596D /* PTProtocolTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +40,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 839D98C61ABA3AFA0064BD66;
 			remoteInfo = TwoView;
+		};
+		83C37F311AC8DD080070596D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C37F2A1AC8DD080070596D /* peertalk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A88FA30150D613800FC3647;
+			remoteInfo = peertalk;
+		};
+		83C37F331AC8DD080070596D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C37F2A1AC8DD080070596D /* peertalk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A88FA44150D613800FC3647;
+			remoteInfo = peertalkTests;
+		};
+		83C37F351AC8DD080070596D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C37F2A1AC8DD080070596D /* peertalk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A64AAC6152604D40065BF86;
+			remoteInfo = "Peertalk Example";
+		};
+		83C37F371AC8DD080070596D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C37F2A1AC8DD080070596D /* peertalk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A64AAE21526050D0065BF86;
+			remoteInfo = "Peertalk iOS Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,6 +84,34 @@
 		839D98DD1ABA3AFB0064BD66 /* TwoViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839D98E21ABA3AFB0064BD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839D98E31ABA3AFB0064BD66 /* TwoViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewTests.m; sourceTree = "<group>"; };
+		83C37EF31AC8D8880070596D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		83C37EF91AC8DC940070596D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		83C37EFB1AC8DC940070596D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83C37EFD1AC8DC940070596D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		83C37EFE1AC8DC940070596D /* Icon-1024.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Icon-1024.psd"; sourceTree = "<group>"; };
+		83C37EFF1AC8DC940070596D /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		83C37F001AC8DC940070596D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83C37F011AC8DC940070596D /* Peertalk Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Peertalk Example-Info.plist"; sourceTree = "<group>"; };
+		83C37F021AC8DC940070596D /* Peertalk Example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Peertalk Example-Prefix.pch"; sourceTree = "<group>"; };
+		83C37F031AC8DC940070596D /* PTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTAppDelegate.h; sourceTree = "<group>"; };
+		83C37F041AC8DC940070596D /* PTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTAppDelegate.m; sourceTree = "<group>"; };
+		83C37F051AC8DC940070596D /* PTExampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTExampleProtocol.h; sourceTree = "<group>"; };
+		83C37F071AC8DC940070596D /* peertalk-icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "peertalk-icon.pdf"; sourceTree = "<group>"; };
+		83C37F081AC8DC940070596D /* peertalk-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "peertalk-icon.png"; sourceTree = "<group>"; };
+		83C37F091AC8DC940070596D /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		83C37F0B1AC8DC940070596D /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		83C37F0C1AC8DC940070596D /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTChannel.h; sourceTree = "<group>"; };
+		83C37F0D1AC8DC940070596D /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
+		83C37F0E1AC8DC940070596D /* PTPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPrivate.h; sourceTree = "<group>"; };
+		83C37F0F1AC8DC940070596D /* PTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTProtocol.h; sourceTree = "<group>"; };
+		83C37F101AC8DC940070596D /* PTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTProtocol.m; sourceTree = "<group>"; };
+		83C37F111AC8DC940070596D /* PTUSBHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTUSBHub.h; sourceTree = "<group>"; };
+		83C37F121AC8DC940070596D /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUSBHub.m; sourceTree = "<group>"; };
+		83C37F151AC8DC940070596D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83C37F161AC8DC940070596D /* peertalkTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "peertalkTests-Info.plist"; sourceTree = "<group>"; };
+		83C37F171AC8DC940070596D /* PTProtocolTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTProtocolTests.h; sourceTree = "<group>"; };
+		83C37F181AC8DC940070596D /* PTProtocolTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTProtocolTests.m; sourceTree = "<group>"; };
+		83C37F2A1AC8DD080070596D /* peertalk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = peertalk.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +135,12 @@
 		839D98BE1ABA3AFA0064BD66 = {
 			isa = PBXGroup;
 			children = (
+				83C37F2A1AC8DD080070596D /* peertalk.xcodeproj */,
+				83C37EF71AC8DC940070596D /* Peertalk Example */,
+				83C37F061AC8DC940070596D /* etc */,
+				83C37F0A1AC8DC940070596D /* peertalk */,
+				83C37F131AC8DC940070596D /* peertalk-tests */,
+				83C37EF31AC8D8880070596D /* README.md */,
 				839D98C91ABA3AFA0064BD66 /* TwoView */,
 				839D98E01ABA3AFB0064BD66 /* TwoViewTests */,
 				839D98C81ABA3AFA0064BD66 /* Products */,
@@ -114,6 +194,71 @@
 				839D98E21ABA3AFB0064BD66 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83C37EF71AC8DC940070596D /* Peertalk Example */ = {
+			isa = PBXGroup;
+			children = (
+				83C37EF81AC8DC940070596D /* Credits.rtf */,
+				83C37EFA1AC8DC940070596D /* InfoPlist.strings */,
+				83C37EFC1AC8DC940070596D /* MainMenu.xib */,
+				83C37EFE1AC8DC940070596D /* Icon-1024.psd */,
+				83C37EFF1AC8DC940070596D /* Icon.icns */,
+				83C37F001AC8DC940070596D /* main.m */,
+				83C37F011AC8DC940070596D /* Peertalk Example-Info.plist */,
+				83C37F021AC8DC940070596D /* Peertalk Example-Prefix.pch */,
+				83C37F031AC8DC940070596D /* PTAppDelegate.h */,
+				83C37F041AC8DC940070596D /* PTAppDelegate.m */,
+				83C37F051AC8DC940070596D /* PTExampleProtocol.h */,
+			);
+			path = "Peertalk Example";
+			sourceTree = "<group>";
+		};
+		83C37F061AC8DC940070596D /* etc */ = {
+			isa = PBXGroup;
+			children = (
+				83C37F071AC8DC940070596D /* peertalk-icon.pdf */,
+				83C37F081AC8DC940070596D /* peertalk-icon.png */,
+				83C37F091AC8DC940070596D /* style.css */,
+			);
+			path = etc;
+			sourceTree = "<group>";
+		};
+		83C37F0A1AC8DC940070596D /* peertalk */ = {
+			isa = PBXGroup;
+			children = (
+				83C37F0B1AC8DC940070596D /* prefix.pch */,
+				83C37F0C1AC8DC940070596D /* PTChannel.h */,
+				83C37F0D1AC8DC940070596D /* PTChannel.m */,
+				83C37F0E1AC8DC940070596D /* PTPrivate.h */,
+				83C37F0F1AC8DC940070596D /* PTProtocol.h */,
+				83C37F101AC8DC940070596D /* PTProtocol.m */,
+				83C37F111AC8DC940070596D /* PTUSBHub.h */,
+				83C37F121AC8DC940070596D /* PTUSBHub.m */,
+			);
+			path = peertalk;
+			sourceTree = "<group>";
+		};
+		83C37F131AC8DC940070596D /* peertalk-tests */ = {
+			isa = PBXGroup;
+			children = (
+				83C37F141AC8DC940070596D /* InfoPlist.strings */,
+				83C37F161AC8DC940070596D /* peertalkTests-Info.plist */,
+				83C37F171AC8DC940070596D /* PTProtocolTests.h */,
+				83C37F181AC8DC940070596D /* PTProtocolTests.m */,
+			);
+			path = "peertalk-tests";
+			sourceTree = "<group>";
+		};
+		83C37F2B1AC8DD080070596D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C37F321AC8DD080070596D /* libpeertalk.a */,
+				83C37F341AC8DD080070596D /* peertalkTests.octest */,
+				83C37F361AC8DD080070596D /* Peertalk Example.app */,
+				83C37F381AC8DD080070596D /* Peertalk iOS Example.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +328,12 @@
 			mainGroup = 839D98BE1ABA3AFA0064BD66;
 			productRefGroup = 839D98C81ABA3AFA0064BD66 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 83C37F2B1AC8DD080070596D /* Products */;
+					ProjectRef = 83C37F2A1AC8DD080070596D /* peertalk.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				839D98C61ABA3AFA0064BD66 /* TwoView */,
@@ -191,13 +342,55 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		83C37F321AC8DD080070596D /* libpeertalk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpeertalk.a;
+			remoteRef = 83C37F311AC8DD080070596D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		83C37F341AC8DD080070596D /* peertalkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = peertalkTests.octest;
+			remoteRef = 83C37F331AC8DD080070596D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		83C37F361AC8DD080070596D /* Peertalk Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Peertalk Example.app";
+			remoteRef = 83C37F351AC8DD080070596D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		83C37F381AC8DD080070596D /* Peertalk iOS Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Peertalk iOS Example.app";
+			remoteRef = 83C37F371AC8DD080070596D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		839D98C51ABA3AFA0064BD66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C37F211AC8DC940070596D /* peertalk-icon.pdf in Resources */,
+				83C37F271AC8DC940070596D /* InfoPlist.strings in Resources */,
 				839D98D51ABA3AFA0064BD66 /* Images.xcassets in Resources */,
+				83C37F1B1AC8DC940070596D /* MainMenu.xib in Resources */,
+				83C37F1F1AC8DC940070596D /* Peertalk Example-Info.plist in Resources */,
+				83C37F1A1AC8DC940070596D /* InfoPlist.strings in Resources */,
+				83C37F191AC8DC940070596D /* Credits.rtf in Resources */,
+				83C37F231AC8DC940070596D /* style.css in Resources */,
+				83C37F221AC8DC940070596D /* peertalk-icon.png in Resources */,
+				83C37F1D1AC8DC940070596D /* Icon.icns in Resources */,
 				839D98D81ABA3AFB0064BD66 /* Main.storyboard in Resources */,
+				83C37F1C1AC8DC940070596D /* Icon-1024.psd in Resources */,
+				83C37F281AC8DC940070596D /* peertalkTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +408,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C37F1E1AC8DC940070596D /* main.m in Sources */,
 				839D98D31ABA3AFA0064BD66 /* ViewController.m in Sources */,
+				83C37F241AC8DC940070596D /* PTChannel.m in Sources */,
+				83C37F291AC8DC940070596D /* PTProtocolTests.m in Sources */,
 				839D98D01ABA3AFA0064BD66 /* main.m in Sources */,
+				83C37EF41AC8D8880070596D /* README.md in Sources */,
+				83C37F251AC8DC940070596D /* PTProtocol.m in Sources */,
+				83C37F201AC8DC940070596D /* PTAppDelegate.m in Sources */,
+				83C37F261AC8DC940070596D /* PTUSBHub.m in Sources */,
 				839D98CE1ABA3AFA0064BD66 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +446,38 @@
 				839D98D71ABA3AFB0064BD66 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83C37EF81AC8DC940070596D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C37EF91AC8DC940070596D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		83C37EFA1AC8DC940070596D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C37EFB1AC8DC940070596D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83C37EFC1AC8DC940070596D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C37EFD1AC8DC940070596D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		83C37F141AC8DC940070596D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C37F151AC8DC940070596D /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -404,6 +636,7 @@
 				839D98E91ABA3AFB0064BD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		839D98EA1ABA3AFB0064BD66 /* Build configuration list for PBXNativeTarget "TwoViewTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +645,7 @@
 				839D98EC1ABA3AFB0064BD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

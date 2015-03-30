@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B89C0D82-E721-4567-BDB9-FB4BAA1084EE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TwoView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D27D9C6F503811DB66240508D8C8371D61D13FAE</key>
+		<string>github.com:getarobo/IPGLab.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TwoView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D27D9C6F503811DB66240508D8C8371D61D13FAE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:getarobo/IPGLab.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D27D9C6F503811DB66240508D8C8371D61D13FAE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D27D9C6F503811DB66240508D8C8371D61D13FAE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TwoView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
